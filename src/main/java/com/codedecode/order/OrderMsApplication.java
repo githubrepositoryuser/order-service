@@ -11,6 +11,7 @@ public class OrderMsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OrderMsApplication.class, args);
+		System.setProperty("https.protocols", "TLSv1.2");
 	}
 
 	@Bean
